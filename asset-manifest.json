@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/textanlys/static/css/main.073c9b0a.css",
+    "main.js": "/textanlys/static/js/main.7540b417.js",
+    "static/js/787.9ba4ba85.chunk.js": "/textanlys/static/js/787.9ba4ba85.chunk.js",
+    "index.html": "/textanlys/index.html",
+    "main.073c9b0a.css.map": "/textanlys/static/css/main.073c9b0a.css.map",
+    "main.7540b417.js.map": "/textanlys/static/js/main.7540b417.js.map",
+    "787.9ba4ba85.chunk.js.map": "/textanlys/static/js/787.9ba4ba85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7540b417.js"
+  ]
+}
