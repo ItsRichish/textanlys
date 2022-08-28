@@ -4,7 +4,8 @@ import Navbar from './Components/Navbar';
 import Textfrom from './Components/Textfrom';
 import React,{useState} from 'react';
 import Alert from './Components/Alert';
-import {BrowserRouter as Router, Route, Link, Routes} from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 
 
 function App() {
@@ -38,18 +39,17 @@ function App() {
   };
 
   return (
-    <Router>
     <>
+    <Router>
     <Navbar toggleMode={toggleMode} mode={mode} text={swtchtext}/>
     <Alert alert={alert} />
+    {/* <Textfrom heading='Enter Your Text' mode={mode} showAlert={showAlert} /> */}
     <Routes>
-      {/* /user --> Component 1
-          /user/home --> Compnent 2 */}
-      <Route exact path='/about' element={<About mode={mode} />} />
-      <Route exact path='/' element={<Textfrom heading='Enter Your Text' mode={mode} showAlert={showAlert} />}></Route>
+      <Route exact path='/' element={<Textfrom heading='Enter Your Text' mode={mode} showAlert={showAlert} />} />
+      <Route exact path='/about' element={< About mode={mode} />} />
     </Routes>
-    </>
     </Router>
+    </>
   );
 }
 
